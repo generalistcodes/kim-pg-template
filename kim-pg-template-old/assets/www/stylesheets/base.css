@@ -1,0 +1,177 @@
+/*-----------------------------------------------------------------------------------
+	Stylesheet: Base
+
+	0.	CSS Reset 
+	1.	Global (body, page sructure, common classes)
+	2.	Header & Navigation
+	3.	App Info
+	4.  Home
+	5.  Team
+	6.  Features
+	7.  Screenshots
+	8.  Updates
+	9.  Press
+	10. Contact
+	11. Footer
+	12. Typography
+	13. Buttons
+	14. Lists
+	15. Forms	
+
+-----------------------------------------------------------------------------------*/
+* { margin: 0; padding: 0; }
+/*--------------------------------------------
+1. Global
+---------------------------------------------*/
+body {
+	font-size: 13px;
+	font-family: "Helvetica Neue", helvetica, sans-serif;
+}
+.container {
+	min-width: 800px;
+	max-width: 1000px;
+	margin: 0 auto;
+}
+
+section #pages {
+	float: right;
+	width: 100%;
+	padding: 0px 0px 0px 50px;
+	position: relative;
+	text-align: center;
+}
+	section #pages .top_shadow,
+	section #pages .bottom_shadow {
+		height: 100px;
+		width: 40px;
+		position: absolute;
+		left: 0px;
+	}
+	
+	section #pages .top_shadow {
+		top: 0px;
+	}
+	section #pages .bottom_shadow {
+		bottom: 0px;
+	}
+	
+	section #pages div.page { 
+		display: none; 
+		position: absolute;
+		top: 0px;
+		padding-top: 40px;
+	}
+		section #pages .content_box {
+			padding-top: 15px;
+		}
+		section #pages p {
+			color: #6b6b6b;
+		}
+		section #pages img {
+			-webkit-border-radius: 3px;
+			-moz-border-radius: 3px;
+			border-radius: 3px;
+		}
+
+/*--------------------------------------------
+3. App Info
+---------------------------------------------*/
+
+section { }
+	/* chart border-right: 1px solid #42433d; */
+	section #chart {
+		float: left;
+		text-align: right;
+		padding-right: 10px;
+		
+	}	
+	section #chart_right {
+		float: right;
+		text-align: right;
+		padding-right: 10px;
+
+	}
+		section #chart .logo {
+			display: block;
+			margin-bottom: 5px;
+		}
+		section #chart span.tagline {
+			font-family: 'Quicksand', sans-serif;
+			font-size: 19px;
+			letter-spacing: -0.05em;
+			color: #1f1f1f;
+			display: block;
+			margin-bottom: 30px;
+		}
+		section #chart p {
+			color: #898989;
+			margin-bottom: 30px;
+		}
+		section #chart .buttons {
+			float: right;
+			overflow: hidden;
+		}
+			section #chart .buttons .large_button {
+				float: left;
+				margin-left: 15px;
+				margin-bottom: 15px;
+			}
+		section #chart .price {
+			clear: both;
+			background: url('../images/light-arrow.png') no-repeat top center;
+			padding-top: 50px;
+			text-align: center;
+		}
+		section #chart .price.right_align { background-position: 250px 0px; }
+		section #chart .price.left_align { background-position: 70px 0px; }
+			section #chart .price.left_align p {
+				text-align: left;
+			}
+			section #chart .price p {
+				font-family: 'Nothing You Could Do', cursive;
+				font-size: 20px;
+				color: #1f1f1f;
+			}
+
+/*--------------------------------------------
+5. Team
+---------------------------------------------*/
+div#team { }
+div.about_us {
+	overflow: hidden;
+	margin-bottom: 25px;
+}
+div.team_members {
+	clear: both;
+}
+	div.team_members .person {
+		overflow: hidden;
+		margin-bottom: 20px;
+	}
+		div.team_members .person img{
+			float: left;
+			margin-right: 15px;
+		}
+		div.team_members .person h3 {
+			margin-bottom: 3px;
+		}
+		div.team_members .person span,
+		div.team_members .person a {
+			font-weight: bold;
+			font-size: 12px;
+			display: block;
+		}
+		div.team_members .person span {
+			color: #858585;
+			margin-bottom: 5px;
+			font-style: italic;
+		}
+		div.team_members .person a {
+			color: #319ebc;
+			margin-bottom: 7px;
+			-webkit-transition:color 0.2s ease-in;  
+	    -moz-transition:color 0.2s ease-in;  
+	    -o-transition:color 0.2s ease-in;  
+	    transition:color 0.2s ease-in;
+		}
+			div.team_members .person a:hover { color: #444; }
