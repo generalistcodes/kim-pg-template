@@ -1,0 +1,367 @@
+.block {
+	display:inline-block;
+	width: 15px;
+	margin-left: 1px;
+	float: left;
+	margin-bottom: 1px;
+	height: 15px;
+}
+.c  {background:rgba(193,193,193,.5)}
+.cr {background: #BF3847;}
+.cg {background-color: #9EC238;}
+.cb {background:rgba(0,0,255,.5)}
+.crg{background:rgba(255,255,0,.5)}
+
+.cgb{background-color: #299FFF;}
+.cbr{background:rgba(255,0,255,.5)}
+.crgb{background:rgba(255,255,255,.5)}
+.round  {border-radius:10px}
+
+.circle {
+border-radius: 30px;
+position: relative;
+right: -8px;
+top: -24px;
+background-color: #fff;
+z-index: 1;
+}
+/*.ur {border-radius:5px 50px 5px 5px}*/
+.yur {border-radius:0px 50px 0px 0px; 
+}
+.yul {
+border-radius: 50px 0px 0px 0px;
+}
+.xdl {
+	border-radius: 0px 0px 0px 50px;
+}
+.xdr {
+	border-radius: 0px 0px 50px 0px;
+}
+.ll {
+	border-radius:0px 0px 0px 50px}
+.ate{
+	height: 32px;
+	margin: 0 auto;	
+	display: inline;
+	float: left;
+	width: 32px;
+	margin-top: 3px;
+	margin-right: 2px;
+}
+.rotate{
+	transform: rotate(45deg);
+	-webkit-transform: rotate(45deg);
+	-ms-transform: rotate(45deg); /* IE 9 */ /* Safari and Chrome */
+	-o-transform: rotate(45deg); /* Opera */
+	-moz-transform: rotate(45deg); /* Firefox */
+}
+.geom{
+	background-image: url('http://localhost/css3/geometry_RGB_707165_p72.png');
+	width: 33px;
+	height: 35px;
+	position: relative;
+	/*left: -33px;*/
+	background-position: -3px -5px;
+	background-repeat: no-repeat;
+}
+
+/* large geo*/
+.dockgeom{
+	width: 142px;
+	height: 142px;
+}
+.lblock {
+	display:inline-block;
+	width: 70px;
+	margin-left: 1px;
+	position: relative;
+	float: left;
+	margin-bottom: 1px;
+	height: 70px;
+}
+.lcircle {
+border-radius: 70px;
+position: relative;
+right: -34px;
+top: -107px;
+/*background-color: #2D2E2B;*/
+z-index: 1;
+-moz-box-shadow: 0px 0px 50px #000;
+-webkit-box-shadow: 0px 0px 50px #000;
+box-shadow: 0px 0px 50px #000;
+/*IE 7 AND 8 DO NOT SUPPORT BLUR PROPERTY OF SHADOWS*/
+}
+.selectedring{
+-moz-box-shadow: 0px 0px 50px #000;
+-webkit-box-shadow: 0px 0px 50px #000;
+box-shadow: 0px 0px 50px #000;
+/*IE 7 AND 8 DO NOT SUPPORT BLUR PROPERTY OF SHADOWS*/
+}
+.dc{
+	background-color:#272824; 
+}
+.dc:hover{
+	background-color:#646462; 
+}
+.dcselect{
+	background-color:#cccccc; 
+}
+.lyur {border-radius: 0px 70px 0px 0px; 
+}
+.lyul {
+border-radius: 70px 0px 0px 0px;
+}
+.lxdl {
+border-radius: 0px 0px 0px 70px;
+}
+.lxdr {
+border-radius: 0px 0px 70px 0px;
+}
+.lgeom{
+	background-image: url('../images/klosure/largegeometry_RGB_707165_p72.png');
+	width: 150px;
+	height: 150px;
+	background-repeat: no-repeat;
+}
+/*CHART*/
+.chart_box{
+width: 611px;
+/*height: 490px;*/
+overflow: hidden;
+padding-left: 3px;
+padding-right: 3px;
+background-image:url('../images/klosure/cross_pnk.png'); 
+background-repeat: no-repeat;
+background-position: 58px 61px;
+}
+.chartbox_right{
+width: 300px;
+/*height: 490px;*/
+overflow: hidden;
+padding-top:6px;
+padding-left: 3px;
+padding-right: 3px;
+
+}
+.col1{width: 60px;margin-right: 1px;
+
+height: 30px;}
+.col1_small{width: 60px;margin-right: 1px;
+
+height: 12px;}
+.left{
+   float: left;
+}
+.grid{
+margin-right: 1px;
+/*outline: #464741 solid thin;*/
+border-bottom:1px solid #464741;
+width: 33px;
+height: 30px;
+}
+.rgrid{
+margin-right: 1px;
+width: 33px;
+height: 30px;
+}
+.grid_num{
+margin-right: 1px;
+margin-top: 2px;
+margin-bottom: 2px;
+width: 33px;
+color: #fff;
+height: 12px;
+font-size: 12px;
+text-align: center;
+}
+.grid_num_hover{
+	color: #eba536;
+}
+.spt{
+	background-image:url('../images/klosure/sprite_lblp24.png'); 
+	border:none;
+}
+.sptul{
+	background-image:url('../images/klosure/up_low.png'); 
+	border:none;
+}
+.rt{
+	background-position:-50px 24px;
+}
+
+.opt{
+width: 66px;
+background-position: -9px -5px;
+}
+.con{
+width: 66px;
+background-position: -7px -33px;
+}
+
+.con2{
+width: 59px;
+background-position: -12px -33px;
+}
+
+.opt2{
+width: 59px;
+background-position: -14px -5px;
+}
+.visnone{visibility: hidden;}
+
+.blankgrid{margin-right: 1px;
+width: 33px;
+height: 30px;}
+.noborder{border:none;}
+.blank{
+width: 66px;
+}
+.g55 {
+background-position: -174px -4px;
+}
+.g54 {
+background-position: -209px -4px;
+}
+.g53 {
+background-position: -244px -4px;
+}
+.g52 {
+background-position: -277px -4px;
+}
+.g51 {
+background-position: -311px -4px;
+}
+.g61 {
+background-position: -344px -4px;
+}
+.g62 {
+background-position: -374px -4px;
+}
+.g63 {
+background-position: -409px -4px;
+}
+.g64 {
+background-position: -444px -4px;
+}
+.g65 {
+background-position: -479px -4px;
+}
+.ring{
+width: 0; height: 0; 
+border: 60px solid;
+border-radius: 50%; 
+border-top-color: black;
+border-bottom-color: black;
+border-left-color: yellow;
+border-right-color: yellow;
+background: url('../images/klosure/geometry_RGB_707165_p72.png');
+background-position: -3px -3px;
+background-repeat: no-repeat;
+width: 33px;
+height: 35px;
+text-indent: -9999px;
+text-align: left;	
+}
+
+.lftup{
+	background-position:-8px -97px; 
+	width: 59px;
+}.lftul{
+	background-position:-8px -62px; 
+	width: 59px;
+}
+.lftleft{
+	background-position:10px -57px;	
+}.lftlefttop{
+	width: 40px;
+    background-position: -10px -56px;
+}
+
+.geomlarge {
+height: 600px;
+width: 300px;
+border-left: 1px solid #42433d;
+}
+
+.operation,.condition{
+	height: 40px;
+	width: 300px;
+	margin-left: 10px;
+	float: left
+}
+
+.inputop {
+height: 30px;
+background-position: 8px 3px;
+width: 90px;
+float: left;
+}
+
+.inputcon{
+border-bottom: 1px solid #464741;
+height: 20px;
+display: block;
+width: 90px;
+}
+
+.txtop{
+width: 197px !important;
+height: 30px;
+border: 1px solid red;
+}
+.conditionmenu{
+width: 100%;
+height: 100px;
+}
+.inpgrid{
+	width: 50%;
+	border-bottom: none;
+	margin-right: 1px;
+	height: 30px;
+}
+.inblock{
+	display:inline-block !important;
+}
+.ifrm{
+	width:600px;
+	height: 600px;
+	overflow:hidden;
+	border:none; 
+}
+.vr{
+	outline: none !important;
+}
+.darkdefcolor{
+	background-color:#272822; 
+}
+.none{
+	display: none;
+}
+	.selgrow{
+		border-bottom: 1px dashed white;
+	}
+	.bggrnd{
+		border-bottom: 1px solid #33b9de;
+	}
+	.toothnum{
+		font-size:30px;
+		color: #ffffff;
+		width: 40%;margin: 0 auto;
+	}
+	.toothname{
+		color: #b3b6ad;
+		padding-left: 10px;
+		font-size: 15px;
+	}
+	#fancybox-outer{
+		background-color:#161713 !important; 
+	}
+	.fancybox-custom .fancybox-skin {
+		box-shadow: 0 0 50px #222;
+	}
+	.ringmod{width: 50%;margin: 0 auto;}
+	#chart{margin-left:15px;}
+	img {
+	max-width: 100%;
+	height: auto;
+}
